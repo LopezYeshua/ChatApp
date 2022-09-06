@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.chatPaper {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.chatBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.position-in-message {
+  position: relative;
+  top: 11vh;
+  left: 22vw;
+}
+
+.navigation {
+  margin-right: .3em;
+}
+
+@media only screen and (max-width: 450px) {
+  .position-in-message {
+    position: relative;
+    top: 13.5vh;
+    left: 12vw;
+    width: 2rem !important;
+  }
+  .position-in-message p {
+    font-size: 0;
+  }
+  .navigation {
+    margin-left: .2em;
+  }
+
+  
+
+}
+
+
+.chatButton {
+  border-radius: .5rem !important;
+}
