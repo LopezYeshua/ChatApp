@@ -11,9 +11,10 @@
 .chatBox {
   display: flex;
   flex-direction: column;
+
 }
 
-.position-in-message {
+.position-fab {
   position: relative;
   top: 11vh;
   left: 22vw;
@@ -21,6 +22,10 @@
 
 .navigation {
   margin-right: .3em;
+}
+
+.mui-text:not(:last-child) {
+  margin: 10px 0 !important;
 }
 
 @media only screen and (max-width: 450px) {
