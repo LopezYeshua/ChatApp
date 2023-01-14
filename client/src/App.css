@@ -16,8 +16,9 @@
 
 .position-fab {
   position: relative;
-  top: 11vh;
-  left: 22vw;
+  top: 120px;
+  left: 50%;
+  transform: translate(-70px)
 }
 
 .navigation {
@@ -29,13 +30,13 @@
 }
 
 @media only screen and (max-width: 450px) {
-  .position-in-message {
+  .position-in-fab {
     position: relative;
     top: 13.5vh;
     left: 12vw;
     width: 2rem !important;
   }
-  .position-in-message p {
+  .position-in-fab p {
     font-size: 0;
   }
   .navigation {
