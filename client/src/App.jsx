@@ -11,7 +11,6 @@ import {
   Typography
 } from '@mui/material'
 import Main from './views/Main'
-import ChatForm from './components/ChatForm'
 
 function App() {
 
