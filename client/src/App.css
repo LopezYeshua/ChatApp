@@ -1,5 +1,8 @@
-.App {
-  text-align: center;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .chatPaper {
@@ -26,10 +29,13 @@
 .styleUserOneText {
   background-color: #0c7489;
   width: fit-content;
+  padding:  5px 10px;
   max-width: 200px;
   position: relative;
   left: 100%;
   transform: translate(-100%);
+
+  border-radius: .3rem;
 }
 
 .styleUserOneText > p:not(:last-child) {
@@ -48,6 +54,7 @@
   background-color: #040404;
   width: fit-content;
   border-radius: .5rem;
+  padding:  5px 10px;
   color: white;
 }
 
